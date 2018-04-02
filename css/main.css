@@ -1,0 +1,152 @@
+
+/*** whole document ***/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: lighter;
+  color: darkSlateGrey;
+  letter-spacing: .5px;
+}
+
+/*** logo and nav ***/
+#container-1 {
+  width: 100%;
+  height: auto;
+}
+
+#logo {
+  float: left;
+  width: 50%;
+  height: auto;
+}
+
+#nav {
+  clear: right;
+}
+
+#nav ul li {
+  margin: 12px;
+  padding: 4px;
+  display: inline-flex;
+}
+
+#nav ul li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: darkSlateGrey;
+  letter-spacing: .7px;
+  font-weight: lighter;
+}
+
+#nav ul li a:hover {
+  color: #56D6DF;
+}
+
+
+/*** hero image ***/
+
+#hero {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  position: center;
+}
+
+/*** body ***/
+
+
+/*** about me ***/
+#about {
+  margin: 20px;
+  width: 100%;
+
+}
+
+#left {
+  margin-right: 10px;
+  width: 40%;
+  float: left;
+}
+
+#left h2 {
+  font-family: 'IBM Plex Serif', serif;
+}
+
+#right {
+  margin-left: 10px;
+  width: 40%;
+  float: right;
+}
+
+
+/*** portfolio ***/
+#portfolio {
+  margin-top: 70px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#project1 {
+  width: 25%;
+  float: left;
+}
+
+#project2 {
+  width: 25%;
+  float: left;
+}
+
+#project3 {
+  width: 25%;
+  float: right;
+}
+
+/*** contact ***/
+#contact {
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#me-img {
+  width: 25%;
+  border-radius: 90%;
+  clear: right;
+}
+
+#contact a {
+  text-decoration: none;
+  color: darkSlateGrey;
+}
+
+#contact a:hover{
+  color: #56D6DF;
+}
+
+#social-media-links {
+  margin: 10px;
+  text-align: center;
+}
+
+#social-media-icon {
+  display: inline-block;
+  padding: 10px;
+}
+
+
+/*** footer ***/
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#heart {
+  color: #F16059;
+  font: .75rem;
+}
+
+/* for tablet devices */
+@media-query (min-width: 480px) {
+
+}
